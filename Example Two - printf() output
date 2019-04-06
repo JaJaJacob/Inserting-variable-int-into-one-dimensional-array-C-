@@ -1,0 +1,16 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+	int array[5];
+	
+	for(int i=0; i<5; i++)
+	{
+		scanf("%d", &array[i]); //&array[i] &(reference to the array above) :/
+	}
+	for(int i=0; i<5; i++)
+	{
+		printf("\n %d", array[i]);  //because it's simpler 
+	}
+}
